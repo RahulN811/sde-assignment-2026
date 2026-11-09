@@ -1,0 +1,22 @@
+[crash-test 11:07:09] starting simulator for scenarios/public_02_incidents.yaml on http://127.0.0.1:8701
+[crash-test 11:07:14] run 1: starting controller (will kill at sim minute pending)
+[crash-test 11:07:20] KILLED controller at 2027-01-04T00:00:00+05:30 (sim minute 0); 2 proposal(s) in flight:
+[crash-test 11:07:20]     ('nw_renewal', 'explore', 'pending', 'apr_00001')
+[crash-test 11:07:20]     ('nw_kyc', 'explore', 'pending', 'apr_00002')
+[crash-test 11:07:20] run 2: starting controller (will kill at sim minute 3720)
+[crash-test 11:07:28] KILLED controller at 2027-01-06T14:00:00+05:30 (sim minute 3720); 0 proposal(s) in flight:
+[crash-test 11:07:28] run 3: starting controller (will kill at sim minute pending)
+[crash-test 11:07:30] KILLED controller at 2027-01-06T20:00:00+05:30 (sim minute 4080); 1 proposal(s) in flight:
+[crash-test 11:07:30]     ('ks_cancel', 'caller_id_rotate', 'pending', 'apr_00003')
+[crash-test 11:07:30] run 4: starting controller (will kill at sim minute 9300)
+[crash-test 11:07:42] KILLED controller at 2027-01-10T13:00:00+05:30 (sim minute 9420); 0 proposal(s) in flight:
+[crash-test 11:07:42] run 5: starting controller (run to the end)
+[crash-test 11:07:52] final controller exit code: 0; scenario finished: True
+[crash-test 11:07:52] changes applied: 3; approvals requested: 3
+[crash-test 11:07:52] double-applied proposals: none
+[crash-test 11:07:52] double-requested proposals: none
+[crash-test 11:07:52] proposals stuck half-sent: none
+[crash-test 11:07:52] events ingested: 324312 (simulator last_event_id: 324312, max stored id: 324312)
+[crash-test 11:07:52] audit rows: 23
+[crash-test 11:07:52] grade report written to reports\crash02.md
+[crash-test 11:07:52] RESULT: PASS - killed and restarted, finished correctly, nothing lost or done twice
